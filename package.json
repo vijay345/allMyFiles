@@ -19,6 +19,8 @@
     "@angular/platform-browser": "~9.1.4",
     "@angular/platform-browser-dynamic": "~9.1.4",
     "@angular/router": "~9.1.4",
+    "@ionic/angular": "5.1.1",
+    "@ionic/angular-toolkit": "2.2.0",
     "@ngx-formly/bootstrap": "^5.7.1",
     "@ngx-formly/core": "^5.7.1",
     "@ngx-formly/material": "^5.7.1",
