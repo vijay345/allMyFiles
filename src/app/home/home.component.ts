@@ -1,20 +1,29 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 import { FormlyFormOptions, FormlyFieldConfig } from '@ngx-formly/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
 })
-export class AppComponent {
+export class HomeComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+  // tslint:disable-next-line: member-ordering
   form = new FormGroup({});
+  // tslint:disable-next-line: member-ordering
   model: any = {};
+  // tslint:disable-next-line: member-ordering
   options: FormlyFormOptions = {
     formState: {
       awesomeIsForced: false,
     },
   };
+  // tslint:disable-next-line: member-ordering
   fields: FormlyFieldConfig[] = [
     {
       key: 'text',
